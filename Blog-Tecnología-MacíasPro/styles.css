@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+:root {
+    --background-color: #0b1120;
+    --surface-color: #172033;
+    --primary-color: #38bdf8;
+    --text-color: #f1f5f9;
+ }
+ body {
+    background-color:
+    var(--background-color);
+     color: var(--text-color);
+     font-family: Arial, sans-serif;
+     font-size: 16px;
+     line-height: 1.6;
+ }
+section {
+    background-color:
+    var(--surface-color);
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: var(--primary-color);
+}
+header {
+    background-color:
+    var(--surface-color);
+      padding: 20px;
+      text-align: center;
+}
+nav {
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-bottom: 1px solid
+    var(--primary-color);
+}
+nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin: 0 12px;
+    border: 1px solid
+    var(--primary-color);
+    padding: 8px 14px;
+    border-radius: 8px;
+}
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+main {
+    padding: 30px 20px;
+}
+section {
+    background-color: 
+    var(--surface-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+h1, h2, h3 {
+    margin-bottom: 15px;
+    color: var(--primary-color)
+}
+p, li {
+    line-height: 2.0;
+}
+main a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+main a:hover {
+    text-decoration: underline;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: start;
+}
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+        padding: 12px;
+    }
+    section {
+        padding: 15px;
+    }
+    nav {
+        gap: 10px;
+    }
+    nav a {
+        margin: 0;
+    }
+}
+footer {
+    text-align: center;
+}
+.espacio-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 10px;
+    background: transparent;
+}
+.espacio-imagen img {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    max-height: 380px;
+    height: auto;
+    object-fit: contain;
+}
+@media (max-width: 768px) {
+    .espacio-imagen {
+        min-height: 180px;
+    }
+    .espacio-imagen img {
+        max-width: 280px;
+        max-height: 250px;
+    }
+}
+main > img {
+    width: 100%;
+    max-width: 420px;
+    height: 400px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 20px;
+}
+section img {
+    display: block;
+    width: 80%;
+    max-width: 420px;
+    height: 200px;
+    object-fit: contain;
+    margin: 20px auto 0;
+}
+.imagen-grande {
+    max-width: 450px;
+    height: 530px;
+}
+.pagina-inicio {
+    background-image: url(img/pngwingi.com.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Imagen-IA {
+    max-width: 500px;
+    height: 230px;
+}
+.img-pc {
+    max-width: 300px;
+    height: 220px;
+}
+.electronica-SS{
+    max-width: 500px;
+    height: 780px;
+}
+.Mec-corazon {
+    max-width: 500px;
+    height: 405px;
+}
+.imagen-MEC {
+    max-width: 500px;
+    height: 339px;
+}
